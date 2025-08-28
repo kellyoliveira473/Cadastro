@@ -11,7 +11,7 @@ import lombok.*;
 @Setter
 @NoArgsConstructor
 @Builder
-@Table(name="cadastro")
+@Table(name="/cadastros")
 @Entity
 public class Cadastro {
     @Id
